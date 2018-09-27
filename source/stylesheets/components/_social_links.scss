@@ -1,4 +1,7 @@
 .social-links a {
   padding: 10px;
-  color: $gray;
+  color: $grey;
+  &:hover {
+    color: $dark-grey;
+  }
 }

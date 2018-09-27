@@ -5,9 +5,17 @@
   </a>
 
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm social-links">
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <div class="page-links">
+      <%= link_to "About us", '/about.html', class: 'navbar-wagon-item navbar-wagon-link' %>
+      <%= link_to "Programme", '/programme.html', class: 'navbar-wagon-item navbar-wagon-link' %>
+      <%= link_to "Pricing", '/pricing.html', class: 'navbar-wagon-item navbar-wagon-link' %>
+      <%= link_to "Contact us", '/contact.html', class: 'navbar-wagon-item navbar-wagon-link' %>
+    </div>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
   </div>
 </div>

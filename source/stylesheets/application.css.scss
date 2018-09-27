@@ -9,16 +9,19 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-// Your CSS partials
+// CSS partials
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
 
+// Generic CSS selectors
 body {
   color: black;
 }
-
 h1 {
   font-weight: bold;
   letter-spacing: 2px;
+}
+.padded {
+  padding: 2em;
 }
