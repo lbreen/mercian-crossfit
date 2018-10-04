@@ -1,42 +1,51 @@
 ---
-title: Crossfit Watchmen
+title: Crossfit Watchman
 ---
 
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path 'background.jpeg' %>');">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 50%), url('<%= image_path 'background.jpeg' %>');">
   <div class="banner-content">
     <h1>Crossfit Watchman</h1>
     <p>Forging Elite Fitness</p>
     <a class="btn btn-primary btn-lg">Join Now</a>
   </div>
 </div>
-<div class="container">
-  <div class="row">
+<div class="container" style="position: relative; bottom: 60px;">
+  <div class="row padded">
     <div class="col-xs-12 col-sm-6 text-center">
-      <img src="https://via.placeholder.com/400x300">
+      <%= image_tag 'crossfit-photo-1.jpg', class: 'photo-large photo-border' %>
     </div>
     <div class="col-xs-12 col-sm-6 text-center">
-      <div class="photo-text">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+      <div class="photo-text text-center">
+        <h1>Timetable</h1>
+        <% link_to '/about.html' do %>
+          <p>See our weekly programme <i class="fas fa-arrow-circle-right"></i></p>
+        <% end %>
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row padded">
     <div class="col-xs-12 col-sm-6 text-center">
       <div class="photo-text">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+        <h1>Pricing</h1>
+        <% link_to '/pricing.html' do %>
+          <p>Check out our pricing <i class="fas fa-arrow-circle-right"></i></p>
+        <% end %>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 text-center">
-      <img src="https://via.placeholder.com/400x300">
+      <%= image_tag 'crossfit-photo-2.jpg', class: 'photo-large photo-border' %>
     </div>
   </div>
-  <div class="row">
+  <div class="row padded">
     <div class="col-xs-12 col-sm-6 text-center">
-      <img src="https://via.placeholder.com/400x300">
+      <%= image_tag 'crossfit-photo-3.jpg', class: 'photo-large photo-border' %>
     </div>
     <div class="col-xs-12 col-sm-6 text-center">
       <div class="photo-text">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+        <h1>About us</h1>
+        <% link_to '/about/html' do %>
+          <p>Find out about our team <i class="fas fa-arrow-circle-right"></i></p>
+        <% end %>
       </div>
     </div>
   </div>
